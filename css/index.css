@@ -3,11 +3,11 @@ body{
     max-width: 1280px;
     
 }
-.containerHero__box--header{grid-area: h;}
-.containerHero__box--side{grid-area: s;}
-.containerHero__box--main{grid-area: m;}
-.containerHero__box--right{grid-area: r;}
-.containerHero__box--footer{grid-area: f;}
+.containerHero__boxHeader{grid-area: h;}
+.containerHero__boxSide{grid-area: s;}
+.containerHero__boxMain{grid-area: m;}
+.containerHero__boxRight{grid-area: r;}
+.containerHero__boxFooter{grid-area: f;}
 .containerHero{
     display: grid;
     grid-template-areas: 
@@ -30,12 +30,12 @@ body{
     color: azure;
     
 }
-.containerHero__box--header{
+.containerHero__boxHeader{
     display: flex;
     justify-content: space-evenly;
     padding: .8em;
 }
-.containerHero__box--header > li{
+.containerHero__boxHeader > li{
     list-style: none;
     width: 100px;
     background-color: grey;
